@@ -1,7 +1,6 @@
 এই ক্লাস এ আমি যা যা অনুশীলন করেছি তা নিচে উল্লেখ করা হলো।  
 
-Class-2
-
+Class-2<br>
         1 Everything you need to get started with PHP development<br>
         2 Variables, Constants and Comments<br>
         3 Details on printing output in PHP<br>
