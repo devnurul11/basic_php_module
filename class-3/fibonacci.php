@@ -1,5 +1,5 @@
 <?php
-function fibonacci($userInt ,$terms ) {
+function fibonacci($userInt=0 ,$terms=8 ) {
       if ($userInt==0) {
         $veryOldVal = $userInt;
         $old =$userInt+1;
@@ -19,6 +19,7 @@ function fibonacci($userInt ,$terms ) {
             }
            
         }
+        
       } elseif($userInt >1 ){
         
         $veryOldVal = $userInt;
@@ -42,20 +43,7 @@ function fibonacci($userInt ,$terms ) {
     
 }
 
-fibonacci(2,6);
+fibonacci();
 
-// function fibonacci($start, $terms) {
-//     $previous = $start - 1;
-//     $current = $start;
-
-//     for ($i = 0; $i < $terms; $i++) {
-//         $next = $previous + $current;
-//         echo $current, ", ";
-//         $previous = $current;
-//         $current = $next;
-//     }
-// }
-
-// fibonacci(0, 6);
 
 
