@@ -43,7 +43,7 @@ function fibonacci($userInt=0 ,$terms=8 ) {
     
 }
 
-fibonacci();
+fibonacci(0, 5);
 
 
 
