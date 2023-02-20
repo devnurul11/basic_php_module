@@ -11,7 +11,7 @@ function sortStringsByLength($array) {
     return $array;
   }
 
-//print_r(sortStringsByLength($names));
+print_r(sortStringsByLength($names));
 
 
 // 2.Write a PHP function to concatenate two strings, but with the second string starting from the end of the first string.
@@ -31,46 +31,37 @@ $names = array('Nurul', 'Ayman', 'Sadman', 'Ariyan','Anguman', 'Khalek', 'babu',
 
 
 function newArryWithOutFirstAndLastElement($array){
-    $arrayCount = count($array);
-    $newArray =array('');
-    foreach ($array as $key=> $value) {
-        if ($key == 0 && $key == $arrayCount) {
-            continue;
-            array_push($newArray, $value);
-            return $newArray;
-        }
-    }
-};
+     array_pop($array);
+     array_shift($array);
+     return $array;
+}
 
-//var_dump(newArryWithOutFirstAndLastElement($names));
+print_r(newArryWithOutFirstAndLastElement($names));
+
 // 4.Write a PHP function to check if a string contains only letters and whitespace.
+
+$string ='Bangladesh is a special case Bangladesh Dhaka is the capital ofBangladesh';
+   
+
+function containsOnlyLettersAndWhitespace($str) {
+    return preg_match('/^[a-zA-Z\s]+$/', $str);
+  }
+  
+  if (containsOnlyLettersAndWhitespace($string)) {
+        echo 'It is string that contains only letters and whitespace';
+  }else{
+        echo 'It is not the string  that contains only letters and whitespace';
+  }
 
 
 // 5.Write a PHP function to find the second largest number in an array of numbers.
+    $numbers = array(5, 20, 60, 50, 30,100, 60, 90, 70);
+//    
+    function secoundHiestNumber($n){
+        sort($n);
+        $count = count($n);
+        $count-=2;
+        return $n[$count];
+    }
 
-
-
-
-
-// function longestWord($string) {
-      
-//     $words = explode(' ', $string);
-    
-//     // Initialize variables for the longest word and its length
-//     $longest_word = '';
-//     $longest_length = 0;
-    
-//     // Loop through each word and compare its length to the current longest length
-//     foreach ($words as $word) {
-//       $length = strlen($word);
-//       if ($length > $longest_length) {
-//         $longest_word = $word;
-//         $longest_length = $length;
-//       }
-//     }
-    
-//     // Return the longest word
-//     return $longest_word;
-//   }
-// $str = "The quick brown fox jumped over the lazy dog mamamamama aghaigiauwhtgiougkjvn";
-//  echo longestWord($str);
+    echo secoundHiestNumber($numbers);
