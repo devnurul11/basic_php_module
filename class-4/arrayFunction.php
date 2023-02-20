@@ -36,10 +36,14 @@
 
 $person = ['jamal', 'Nurul', 'Nuzmul', 'Samim', 'Nahid'];
 
-function filterByN($name){
-    return $name[0]=='N';
-};
+// function filterByN($name){
+//     return $name[0]=='N';
+// };
 
-$newPerson = array_filter($person, 'filterByN');
+// $newPerson = array_filter($person, 'filterByN');
 
-print_r($newPerson);
+// print_r($newPerson);
+
+echo array_shift($person);
+
+print_r(array_push($person, "mmam"));
