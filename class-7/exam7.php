@@ -1,4 +1,3 @@
-<?
 <?php
 
 //Use the employees table to answer the following questions:
