@@ -1,0 +1,253 @@
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .logo img {
+    max-width: 200px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Featured Post Styles */
+  .post-card {
+    display: flex;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .post-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .post-info {
+    padding: 20px;
+  }
+  
+  .post-info h2 {
+    margin-top: 0;
+  }
+  
+  .post-info p {
+    margin: 10px 0;
+  }
+  
+  .register-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .register-button:hover {
+    background-color: #666;
+  }
+  
+
+  /* blog */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .blog-posts {
+    flex: 2;
+  }
+  
+  .post {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .post-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .post-content {
+    padding: 20px;
+  }
+  
+  .post-title {
+    font-size: 24px;
+    margin: 0;
+    }
+    
+    .post-excerpt {
+    margin: 10px 0;
+    }
+    
+    .read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+    
+    .read-more:hover {
+    background-color: #0062cc;
+    }
+    
+    .sidebar {
+    flex: 1;
+    margin-left: 20px;
+    }
+    
+    .search-bar {
+    margin-bottom: 20px;
+    }
+    
+    .search-bar input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 80%;
+    }
+    
+    .search-bar button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-left: -1px;
+    cursor: pointer;
+    }
+    
+    .search-bar button:hover {
+    background-color: #f0f0f0;
+    }
+    
+    .categories {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    }
+    
+    .categories h2 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    }
+    
+    .categories ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    
+    .categories li {
+    margin-bottom: 5px;
+    }
+    
+    .categories a {
+    color: #333;
+    text-decoration: none;
+    }
+    
+    .categories a:hover {
+    text-decoration: underline;
+    }  
+
+
+    /* single blog single page */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    
+    header nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    .post-title {
+      font-size: 32px;
+      margin-top: 0;
+    }
+    
+    .post-content {
+      line-height: 1.5;
+    }
+    
+    .post-author {
+      font-style: italic;
+      margin-top: 20px;
+    }
+    
+    .social-sharing {
+      margin-top: 20px;
+    }
+    
+    .social-sharing a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    
+    .social-sharing a:hover {
+      background-color: #0062cc;
+    }
+    
