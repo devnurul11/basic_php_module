@@ -10,7 +10,7 @@ include'head.php';
       </div>
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="blog.php">Blog</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>

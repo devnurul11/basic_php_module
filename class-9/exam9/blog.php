@@ -12,7 +12,7 @@
       <div class="post-content">
         <h2 class="post-title">Title of the First Blog Post</h2>
         <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et urna a metus bibendum pulvinar. Vivamus non arcu vel ipsum ultricies blandit.</p>
-        <a href="#" class="read-more">Read More</a>
+        <a href="single.php" class="read-more">Read More</a>
       </div>
     </div>
     <div class="post">
@@ -22,7 +22,7 @@
       <div class="post-content">
         <h2 class="post-title">Title of the Second Blog Post</h2>
         <p class="post-excerpt">Integer vehicula dolor eget nunc placerat congue. Etiam id mi nunc. Duis aliquam diam massa, eget congue sapien sagittis eu. </p>
-        <a href="#" class="read-more">Read More</a>
+        <a href="single.php" class="read-more">Read More</a>
       </div>
     </div>
     <div class="post">
@@ -32,7 +32,7 @@
       <div class="post-content">
         <h2 class="post-title">Title of the Third Blog Post</h2>
         <p class="post-excerpt">Nulla vel turpis eu odio ullamcorper eleifend. Nulla facilisi. Etiam vel semper elit, eget egestas justo. Donec mattis eleifend nunc, at luctus arcu posuere eu.</p>
-        <a href="#" class="read-more">Read More</a>
+        <a href="single.php" class="read-more">Read More</a>
       </div>
     </div>
     <!-- add more posts here -->

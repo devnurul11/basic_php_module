@@ -3,22 +3,30 @@ include"head.php";
 include"header.php";
 ?>
 
-    <main>
-      <article>
-        <h1 class="post-title">My Blog Post Title</h1>
-        <img src="path/to/image.jpg" alt="Blog Post Image">
-        <p class="post-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet malesuada felis. Donec eget velit lorem. Duis pretium erat tellus, vel dictum turpis hendrerit quis. Etiam eleifend sem id erat viverra, a malesuada nunc pulvinar. Integer id lectus id augue blandit fringilla. Morbi nec sodales elit, nec aliquet massa. Donec eu luctus libero, quis viverra eros. Proin eleifend velit eget sapien feugiat, sed laoreet justo pulvinar. Vestibulum imperdiet eros nec tellus pulvinar, sed convallis tellus faucibus. Pellentesque et metus ac nunc convallis imperdiet in quis nibh. Nullam interdum, odio ut consectetur imperdiet, erat leo molestie enim, non malesuada elit quam sed est. Proin accumsan sapien quis lorem placerat blandit.
-        </p>
-        <p class="post-author">Written by John Doe</p>
-        <div class="social-sharing">
-          <a href="#" class="facebook-share">Share on Facebook</a>
-          <a href="#" class="twitter-share">Share on Twitter</a>
-        </div>
-      </article>
-    </main>
-    <footer>
-      <p>&copy; 2023 My Blog</p>
-    </footer>
-  </body>
+	<!-- Main content -->
+	<main>
+		<article>
+			<header>
+				<h1>My Blog Post Title</h1>
+				<img src="https://example.com/images/my-blog-post-image.jpg" alt="My Blog Post Image">
+				<p>Written by <a href="/author/john-doe">John Doe</a> on April 4, 2023</p>
+			</header>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula euismod lectus, sit amet consequat quam imperdiet sit amet. Ut consectetur, ex a luctus mattis, tortor neque facilisis lectus, quis ullamcorper felis orci vel enim. Sed gravida nisi eget urna maximus, in euismod erat fringilla. Suspendisse sit amet posuere erat. Aliquam in eleifend odio, eget posuere mauris. Nullam bibendum sapien a sem consequat, ut pulvinar tellus bibendum. Nullam vel laoreet felis.</p>
+			<p>Pellentesque sollicitudin leo eu nisi pharetra, vel lacinia quam sodales. Nulla facilisi. Sed gravida mi non urna varius blandit. Sed aliquet mi non purus bibendum lacinia. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam bibendum quam vel arcu feugiat, at euismod arcu euismod. Nullam porttitor dolor ac risus dignissim, a scelerisque velit commodo. Cras at nisi a ipsum bibendum finibus. Pellentesque eu risus commodo, tincidunt orci nec, commodo ex. Ut blandit a odio at scelerisque.</p>
+			<!-- Social sharing buttons -->
+			<div class="social-sharing">
+				<a class="btn btn-social-icon btn-facebook" href="#"><i class="fa fa-facebook"></i></a>
+				<a class="btn btn-social-icon btn-twitter" href="#"><i class="fa fa-twitter"></i></a>
+				
+        <a class="btn btn-social-icon btn-pinterest" href="#"><i class="fa fa-pinterest"></i></a>
+			<a class="btn btn-social-icon btn-reddit" href="#"><i class="fa fa-reddit"></i></a>
+		</div>
+	</article>
+</main>
+
+<!-- Footer -->
+<footer>
+	<p>&copy; 2023 My Blog. All rights reserved.</p>
+</footer>
+</body>
 </html>
