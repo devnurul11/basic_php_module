@@ -7,4 +7,4 @@ function multiplicationTable(num) {
   
   // Example usage:
   multiplicationTable(5);
-  
+//   my name nurul
