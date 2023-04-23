@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module-12</title>
+    <style>
+        .text-red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <h2 id="text" class="">Bangladesh</h2>
+    <button onclick="add()">Add Style</button>
+    <button onclick="remove()">Remove style</button>
+
+
+    <script>
+       function add() {
+        let text = document.getElementById("text");
+        text.classList.add("text-red");
+       }
+       function remove() {
+        let text = document.getElementById("text");
+        text.classList.remove("text-red");
+    }
+       
+    </script>
+
+
+</body>
+</html>
