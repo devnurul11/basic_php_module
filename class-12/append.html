@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appen Child</title>
+</head>
+<body>
+    <ol id="orderList"></ol>
+    <input id="input">
+    <button onclick="addItem()">Add item</button>
+
+
+
+    <script>
+        function addItem() {
+            var intputItem = document.getElementById("input").value;
+            var item = document.createElement("li");
+            var orderList = document.getElementById("orderList");
+            item.innerHTML="="+ intputItem;
+            
+            orderList.appendChild(item);
+        }
+
+    </script>
+</body>
+</html>
