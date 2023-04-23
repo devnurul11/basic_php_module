@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Request From Ajax</title>
+</head>
+<body>
+    
+
+    <button onclick="postRequest()">Click to Post</button>
+
+    <script>
+        function postRequest(){
+
+           var URL = "https://crud.teamrabbil.com/api/v1/CreateProduct";
+           var data = {'image': 'http://jsonplaceholder.typicode.com', 'name': 'postRequest', 'price': '250'}
+            var Options = {
+                method:"POST",
+                headers: {"accept": "application/json", "content-type":"application/json"},
+                body: JSON.stringify(data)
+            }
+
+            fetch(URL, Options)
+            .then(response=>response.JSON())
+            .then(result => console.log(result))
+            .catch(err=>console.log(err))
+        }
+    </script>
+</body>
+</html>
