@@ -3,8 +3,10 @@ function changeData(){
     const xhr = new XMLHttpRequest();
     //response file 
     xhr.onload = function(){
-        const container = document.getElementById("demo")
-        container.innerHTML = xhr.responseText;
+        const container = document.getElementById("demo");
+        demo.innerHTML = this.responseText;
     };
-    xhr.open('GET', 'demo/text.text');
+    xhr.open('GET', 'demo/text.txt');
+
+    xhr.send();
 }
